@@ -5,9 +5,9 @@ import { getAllPostsData } from "../lib/posts";
 const Blog = ({ posts }) => {
   return (
     <Layout title="Blog">
-      <ur className="m-10">
+      <ul className="m-10">
         {posts && posts.map((post) => <Post key={post.id} post={post} />)}
-      </ur>
+      </ul>
     </Layout>
   )
 }
