@@ -24,7 +24,6 @@ const Contact = () => {
           <p className="text-xs mt-2 text-gray-600">abc@test.com</p>
           <p className="font-bold mt-3">Phone</p>
           <p className="text-xs mt-2 text-gray-600">Address</p>
-          <p className="text-xs mt-2 text-gray-600">Address</p>
         </div>
         <div className="mt-6 flex justify-around">
           <div>
